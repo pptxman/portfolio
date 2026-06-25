@@ -3,36 +3,40 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="p:domain_verify" content="8c7b6aea8bfb3e6e71be1890e95ebf4d"/>
     <title>Vlad Bugaev (pptxman) · PowerPoint & Presentations Design</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYW4VYCEPN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-G3VRR58PPB');
+
+      // On mobile, redirect to Google Slides' own viewer (the embed iframe
+      // shows only one tiny slide on a phone-sized viewport).
+      if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+        window.location.replace('https://docs.google.com/presentation/d/11f-1DZkkKVUQ3RRbRdPhJgoTC0BMNjmtMu5d9krSJ5I/edit?usp=sharing');
+      }
+    </script>
     <style>
-        body { margin: 0; }
-        iframe { width: 100%; height: 100vh; border: none }
-        /* Hide scrollbars for all elements */
-        * {
-            scrollbar-width: none; /* Firefox */
-            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
         }
-        *::-webkit-scrollbar {
-            display: none; /* Safari and Chrome */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
         }
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G3VRR58PPB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G3VRR58PPB');
-</script>
 <body>
-
-<iframe src="https://docs.google.com/presentation/d/1MhLBekH-PJNwo4agL-1eeKLo-LEqieDifeXgGLRXE6A/embed" frameborder="0" title="Google Slides Viewer" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/1MhLBekH-PJNwo4agL-1eeKLo-LEqieDifeXgGLRXE6A/edit" frameborder="0" title="Google Slides Viewer" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </body>
 </html>
